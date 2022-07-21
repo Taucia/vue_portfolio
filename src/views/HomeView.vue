@@ -15,4 +15,9 @@ export default {
     Landing
   }
 }
+
+
 </script>
+<style>
+
+</style>
