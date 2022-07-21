@@ -3,8 +3,9 @@
   <div class="container min-vh-100">
     <router-view/>
   </div>
-  <Footer/>
+  <Footer></Footer>
 </template>
+
 <script>
 import HeaderComponent from "./components/HeaderComponent.vue";
 import Footer from "./components/Footer.vue";
