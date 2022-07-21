@@ -94,7 +94,7 @@ export default {
 }
 </script>
 
-<style>
+<style >
 /* timeline */
 .res.text {
   padding-bottom: 20px;

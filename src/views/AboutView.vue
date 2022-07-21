@@ -120,7 +120,7 @@
 <script>
 export default {};
 </script>
-<style>
+<style >
 #about-container{
   border-radius: 30px;
 }
