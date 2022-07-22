@@ -1,6 +1,6 @@
 <template>
   <article
-    class="col-md-6 col-lg-4 col-sm-12"
+    class="col-md-6 col-lg-4 col-sm-10"
     v-for="item in AboutArray"
     :key="item.id"
   >
@@ -21,15 +21,14 @@
                   style="background-color: #333333"
                   :href="item.text"
                   role="button"
-                  ><i class="fab fa-github"></i
-                ></a>
+                  >G</a>
                 <a
                   class="btn btn-primary btn-floating m-1"
-                  style="background-color: #333333"
-                  href="https://github.com/Taucia"
+                  style="background-color:  #dcabdf"
+                 :href="item.link"
                   role="button"
-                  ><i class="fab fa-"></i
-                ></a>
+                  >N
+                </a>
               </div>
             </div>
           </div>
@@ -49,54 +48,64 @@ export default {
           icon: "https://i.postimg.cc/xjyvnLdR/portfoliotask.png",
           title: "Portfolio",
           text: "https://github.com/Taucia/Taucia-jackson-portfolio-project-Final",
+          link:"https://app.netlify.com/sites/brilliant-sawine-98dadc/overview",
         },
         {
           id: 2,
           icon: "https://i.postimg.cc/nzxXPwqt/calculator.png",
           title: "Calculator",
           text: "https://github.com/Taucia/calculator.js",
+          link:"https://app.netlify.com/sites/resplendent-cendol-019eab/overview",
         },
         {
           id: 3,
           icon: "https://i.postimg.cc/43g4fHy6/Bmi.png",
           title: "BMI Calculator",
           text: "https://github.com/Taucia/Bmi-calculator",
+          link:"https://app.netlify.com/sites/phenomenal-gnome-0de544/overview",
         },
         {
           id: 4,
           icon: "https://i.postimg.cc/TwNt9mWg/properties-task.png",
           title: "  Properties Market",
           text: "https://github.com/Taucia/module-task",
+          link:"https://app.netlify.com/sites/deft-macaron-047392/overview",
         },
         {
           id: 5,
           icon: "https://i.postimg.cc/SRWDpPv7/to-do-list.png",
           title: "To-do list",
           text: "https://github.com/Taucia/to-do-list-2",
+          link:"https://app.netlify.com/sites/fabulous-florentine-1c1b47/overview",
         },
         {
           id: 6,
           icon: "https://i.postimg.cc/mD6GHPL6/blogs.png",
           title: "Food Blog",
           text: "https://github.com/Taucia/blog",
+          link:"https://app.netlify.com/sites/starlit-dodol-9f794c/overview",
+
         },
         {
           id: 7,
           icon: "https://i.postimg.cc/7h0wrx4s/tempcal.png",
           title: "Temperature Clcualtor",
-          text: "",
+          text: "https://github.com/Taucia/temperature-converter",
+          link:"https://app.netlify.com/sites/statuesque-youtiao-80aa9d/overview",
         },
         {
           id: 8,
           icon: "https://i.postimg.cc/yNGHJJYp/simple-compoundcal.png",
           title: "Simple&Compound Interest Calculator",
-          text: "",
+          text: "https://github.com/Taucia/interest-calculator",
+          link:"https://app.netlify.com/sites/kaleidoscopic-moxie-b35cf1/overview",
         },
         {
           id: 9,
           icon: "https://i.postimg.cc/8C78V1BR/areaoftrianglecal.png",
           title: "Area of triangle Calculator",
-          text: "",
+          text: "https://github.com/Taucia/Area-of-a-triangle",
+          link:"https://app.netlify.com/sites/melodic-pie-1d139d/overview",
         },
       ],
     };
@@ -108,21 +117,26 @@ export default {
 .image {
   width: fit-content;
 }
+
+article{
+    overflow-x: hidden;
+}
+
 .card-content {
   /* margin: 200px auto 100px; */
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
-  grid-gap: 20px;
+   padding-top:20px; 
 }
 
 .card-content .card {
+
   position: relative;
   margin: 0 auto;
   width: 350px;
   background: white;
   color: black;
-  padding: 20px;
+  /* padding: 20px; */
   box-sizing: border-box;
+  
   text-align: center;
   box-shadow: 0 10px 40px rgba(0, 0, 0, 0.5);
   overflow: hidden;
@@ -140,7 +154,7 @@ export default {
 }
 .card-content .card:hover .layer {
   left: 0;
-}
+  right:0;}
 .card-content .card .content {
   position: relative;
   z-index: 2;
@@ -150,14 +164,14 @@ export default {
   line-height: 24px;
 }
 .card-content .card .content .image {
-  width: 200px;
-  height: 200px;
+  width: 100%;
+  height: 180px;
   /* object-position: -30px 0; */
   /* margin: 0 auto; */
 
   overflow: hidden;
   border: 5px solid #dcabdf;
-  box-shadow: 0 10px 20px rgba(235, 137, 240, 0.2);
+  box-shadow: 0 10px 20px rgba(206, 31, 246, 0.2);
   object-fit: cover;
 }
 .card-content .card .content .details h2 {
@@ -173,5 +187,13 @@ export default {
 }
 .card-content .card:hover .content p {
   color: white;
+}
+
+@media all and (max-width: 1250px) {
+    .card{
+    width: 15em !important;
+    }
+
+
 }
 </style>

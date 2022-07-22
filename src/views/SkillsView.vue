@@ -1,7 +1,7 @@
 <template>
   
   <div class="skills ">
-        <div class="container ">
+        <div>
             <div class="text">
                 <h2><span>My</span> Skills</h2>
                 
@@ -186,7 +186,7 @@ export default {
 }
 </script>
 
-<style >
+<style>
 * {
     box-sizing: border-box;
     margin: 0;
@@ -206,32 +206,45 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
-.container {
+#skills{
+  overflow-x: hidden;
+}
+
+/* .container {
     padding-left: 10px;
     padding-right: 10px;
     margin-left: auto;
-    margin-right: auto;
- 
-   
-}
+    margin-right: 2px;
+} */
 
 
-@media (min-width: 768px) {
+/* @media (min-width: 768px) {
     .container {
         width: 750px;
     }
-}
+} */
 
-@media (min-width: 992px) {
+@media (max-width: 1250px) {
     .container {
-        width: 970px;
+        width: 15em;
     }
 }
 
-@media (min-width: 1200px) {
+
+
+/* @media (min-width: 1200px) {
     .container {
         width: 1170px;
     }
+} */
+
+@media screen and (max-width: 1250px) {
+  .card {
+   
+    width: 93vw;
+    position: relative;
+    left: 0;
+  }
 }
 
 .skills {
@@ -258,6 +271,8 @@ body {
 
 
 .skills .skill-card {
+   position: relative;
+    left: -3rem;
     display: grid;
     grid-template-columns: var(--main-grid);
     grid-gap: 60px;

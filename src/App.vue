@@ -1,13 +1,16 @@
 <template>
+
   <HeaderComponent/>
-  <div class="container min-vh-100">
+  <div class="container min-vh-100 my-5">
     <router-view/>
   </div>
   <Footer></Footer>
+
+
 </template>
 
 <script>
-import HeaderComponent from "@/components/HeaderComponent.vue";
+import HeaderComponent from "./components/HeaderComponent.vue";
 import Footer from "@/components/Footer.vue";
 
 export default{
@@ -23,7 +26,15 @@ export default{
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
+  
 }
-
+body {
+  min-width: 100vw;
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
 </style>

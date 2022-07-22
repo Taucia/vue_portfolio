@@ -4,14 +4,14 @@
       <h2><span>Contact </span>Me</h2>
     </div>
   </div>
-<div class="contact">
+<div class="contact ">
   <div class=" container text-white size">
     <div class="row">
-      <div class="col-md-6 col-xm-12 ">
-        <img src="https://i.postimg.cc/YSdnT1XV/images.jpg" alt="logo" />
+      <div class="col-md-6 col-sm-12">
+        <img src="https://i.postimg.cc/YSdnT1XV/images.jpg" alt="logo" class="img-fluid" />
         
       </div>
-      <div class="col-md-4 col-xl-5 col-xm-12 mt-5">
+      <div class="col-md-4 col-xl-5 col-sm-12">
         <form action="https://formspree.io/f/xknylkka" method="POST">
           <div class="col-md-12">
             <div class="site-heading text-center">
@@ -71,7 +71,7 @@ body {
 /* Font: Montserrat 300;400;700
    Color: light blue #d3e2f6
 */
-.con.text {
+.con .text {
   padding-bottom: 20px;
 }
 

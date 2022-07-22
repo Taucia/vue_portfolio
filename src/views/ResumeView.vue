@@ -141,7 +141,7 @@ body {
 }
 
 img {
-    width: 150px;
+    width: 200px;
     height:150px;
 }
 
@@ -851,6 +851,15 @@ h6 {
     .timeline-box.img-left .timeline-content img {
         max-width: 100%;
         max-height: unset;
+    
+    }
+    .timeline-content {
+        width: 30vw;
+    }
+    /* images */
+
+    img {
+        width: 10em;
     }
     
 }

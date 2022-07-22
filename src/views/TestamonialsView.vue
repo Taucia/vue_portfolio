@@ -4,9 +4,9 @@
       <h2><span>My </span>Testimonials</h2>
     </div>
   </div>
-  <div class="testimonials">
-    <div class="testimonial">
-      <div class="card">
+  <div class="testimonials container">
+    <div class="testimonial row">
+      <div class="card col-sm-12 c0l-md-4">
         <div class="layer"></div>
         <div class="content">
           <div class="image i">
@@ -31,7 +31,7 @@
         </div>
       </div>
 
-      <div class="card">
+      <div class="card col-sm-12 c0l-md-4">
         <div class="layer"></div>
         <div class="content">
           <div class="image i">
@@ -42,11 +42,11 @@
             <h2>Emile van Wyk</h2>
             <h2>Collegue</h2>
             <h2>Emiya.vanwyk@gmail.com</h2>
-            <span></span>
+            <span>Taucia Jackson,  Intuitive, knowledge seeking, always ready to learn new things especially when it comes to her work, she has an eye for detail which when doing the final touches is a must have in any team, all in all she has come a long way since I first met her and she can only go up from here .</span>
           </div>
         </div>
       </div>
-      <div class="card">
+      <div class="card col-sm-12 c0l-md-4">
         <div class="layer"></div>
         <div class="content">
           <div class="image i">
@@ -69,7 +69,7 @@
           </div>
         </div>
       </div>
-      <div class="card">
+      <div class="card col-sm-12 c0l-md-4">
         <div class="layer"></div>
         <div class="content">
           <div class="image i">
@@ -89,7 +89,7 @@
         </div>
       </div>
 
-      <div class="card">
+      <div class="card col-sm-12 c0l-md-4">
         <div class="layer"></div>
         <div class="content">
           <div class="image i">
@@ -109,7 +109,7 @@
           </div>
         </div>
       </div>
-      <div class="card">
+      <div class="card col-sm-12 c0l-md-4">
         <div class="layer"></div>
         <div class="content">
           <div class="image i">
@@ -164,9 +164,7 @@ body {
 .test h2 span {
   color: #dcabdf;
 }
-.i {
-  object-position: 30px 0;
-}
+
 .img {
   height: 50px;
   /* width:0px; */
@@ -182,7 +180,8 @@ body {
 .testimonial .card {
   position: relative;
   margin: 0 auto;
-  width: 350px;
+  width: 90vw;
+  margin-left: 2px ;
   background: white;
   color: black;
   padding: 20px;
@@ -235,5 +234,8 @@ body {
 }
 .testimonial .card:hover .content p {
   color: white;
+}
+@media screen and (max-width: 600px) {
+  
 }
 </style>

@@ -7,19 +7,19 @@
   </div>
  
    <div class="about">
-    <div class="about">
-      <div class="card w-100">
+    <div class="about container">
+      <div class="card row">
         <div class="layer"></div>
-        <div class="content">
+        <div class="content col-sm-12 col-md-12">
           <!-- <div class="image i">
             <img src="https://i.postimg.cc/3wZvJFBh/taucia11.png" alt="avatar" />
           </div> -->
-          <div class="bg-light text-black align-text-center text-capitalize pt-5 pb-3" id="about-container">
-            <img
+          <div class="bg-light text-black align-text-center text-capitalize pt-5 pb-5" id="about-container">
+            <img 
               id="img"
               src="https://i.postimg.cc/3wZvJFBh/taucia11.png"
               alt="profile picture"
-              class="rounded-circle align-items-md-start image "
+              class="rounded-circle align-items-md-start image  mb-5"
             />
          <br>
 
@@ -113,7 +113,13 @@ export default {};
 <style scoped >
 #about-container{
   border-radius: 30px;
+  overflow-x: hidden;
 }
+
+.ab{
+  overflow-x: hidden;
+}
+
 .ab.text {
   padding-bottom: 20px;
 }
@@ -130,28 +136,46 @@ export default {};
 
 container{
   border-radius:15px;
+  overflow-x: hidden;
 }
 /* effect */
 .about {
-  
+  overflow-x: hidden;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
   grid-gap: 20px;
 }
 
 .about .card {
+  justify-content: center;
   position: relative;
   margin: 0 auto;
-  width: 350px;
+  width: 70vw;
   background: white;
   color: black;
-  padding: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+ padding-left: 20px;
+ padding-right: 20px;
   box-sizing: border-box;
   text-align: center;
   box-shadow: 0 10px 40px rgba(0, 0, 0, 0.5);
   overflow: hidden;
   border-radius: 30px;
+  position: relative;
+  left: 0rem;
 }
+
+
+@media only screen and (max-width: 1250px){
+  .about .card{
+    width: 290px;
+    position: relative;
+    left: -3rem;
+  }
+	
+}
+
 .about .card .layer {
   position: absolute;
   top: 0;
@@ -196,4 +220,6 @@ container{
 .about .card:hover .content p {
   color: white;
 }
+
+
 </style>
