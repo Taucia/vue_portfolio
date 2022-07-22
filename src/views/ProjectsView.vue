@@ -4,16 +4,11 @@
       <h2><span>My </span>Projects</h2>
     </div>
   </div>
-  <div  class="container">
-    
-        <div class="row">
-      <Cards />   
+  <div class="container">
+    <div class="row">
+      <Cards />
     </div>
-    </div>
-    
-   
-    
-  
+  </div>
 </template>
 
 <script>
@@ -26,9 +21,9 @@ export default {
 </script>
 
 <style scoped>
-.container{
-    min-height: 50vh;
-
+.container {
+  min-height: 50vh;
+  
 }
 .pro.text {
   padding-bottom: 20px;
@@ -43,5 +38,4 @@ export default {
 .pro h2 span {
   color: #dcabdf;
 }
-
 </style>

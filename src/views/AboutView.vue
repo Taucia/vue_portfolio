@@ -1,12 +1,13 @@
 <template>
+
   <div class="ab">
     <div class="text">
       <h2><span>About </span>Me</h2>
     </div>
   </div>
  
-   <div class="testimonials">
-    <div class="testimonial">
+   <div class="about">
+    <div class="about">
       <div class="card w-100">
         <div class="layer"></div>
         <div class="content">
@@ -102,25 +103,14 @@
  
     
        
-      <!-- <div class="testimonials">
-    <div class="testimonial">
-      <div class="card w-100 h-900 ">
-        <div class="layer"></div>
-        <div class="content"> -->
-         
-          
-        <!-- </div>
-      </div>
-      </div>
-      </div>
-     -->
+     
 
   
 </template>
 <script>
 export default {};
 </script>
-<style >
+<style scoped >
 #about-container{
   border-radius: 30px;
 }
@@ -142,14 +132,14 @@ container{
   border-radius:15px;
 }
 /* effect */
-.testimonial {
-  margin: 200px auto 100px;
+.about {
+  
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
   grid-gap: 20px;
 }
 
-.testimonial .card {
+.about .card {
   position: relative;
   margin: 0 auto;
   width: 350px;
@@ -162,7 +152,7 @@ container{
   overflow: hidden;
   border-radius: 30px;
 }
-.testimonial .card .layer {
+.about .card .layer {
   position: absolute;
   top: 0;
   right: calc(100% - 2px);
@@ -172,18 +162,18 @@ container{
   z-index: 1;
   transition: 0.5s;
 }
-.testimonial .card:hover .layer {
+.about .card:hover .layer {
   right: 0;
 }
-.testimonial .card .content {
+.about .card .content {
   position: relative;
   z-index: 2;
 }
-.testimonial .card .content p {
+.about .card .content p {
   font-size: 18px;
   line-height: 24px;
 }
-.testimonial .card .content .image {
+.about .card .content .image {
   width: 225px;
   height: 225px;
   margin: 0 auto;
@@ -192,18 +182,18 @@ container{
   border: 5px solid #dcabdf;
   box-shadow: 0 10px 20px rgba(235, 137, 240, 0.2);
 }
-.testimonial .card .content .details h2 {
+.about.card .content .details h2 {
   font-size: 18px;
 }
-.testimonial .card .content .details span {
+.about.card .content .details span {
   color: black;
   font-size: 14px;
   transition: 0.5s;
 }
-.testimonial .card:hover .content .details span {
+.about.card:hover .content .details span {
   color: #fff;
 }
-.testimonial .card:hover .content p {
+.about .card:hover .content p {
   color: white;
 }
 </style>

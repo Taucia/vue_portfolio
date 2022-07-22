@@ -22,12 +22,13 @@
                         <div class="timeline-row">
 
                             <div class="timeline-box timeline-content-img logo-timeline-arrow">
-                                <div class="timeline-box-wrap">
-                                    <h6>2013-17</h6>
-                                    <div class="timeline-content">
-
-                                        <img src="https://i.postimg.cc/SKvzzsT3/princeton.jpg" alt="">
+                                <div class="timeline-box-wrap ">
+                                   
+                                    <div class="timeline-content ">
+                                        <h6>•2013-2017</h6>
+                                        <img class="img-fluid" src="https://i.postimg.cc/SKvzzsT3/princeton.jpg" alt="">
                                         <div class="timeline-content-txt">
+                                           
                                             <p>-Attended Princeton High School</p>
                                         </div>
                                     </div>
@@ -39,17 +40,19 @@
                             <div class="verticle-line"></div>
                             <div class="corner top"></div>
                             <div class="corner bottom"></div>
+                            
                         </div>
 
 
 
                         <div class="timeline-row">
                             <div class="timeline-box timeline-content-img">
-                                <div class="timeline-box-wrap">
-                                    <h6>2018</h6>
+                                <div class="timeline-box-wrap ">
+                                    
                                     <div class="timeline-content">
-                                        <div class="timeline-content-txt text-black">
-                                        <img src="https://i.postimg.cc/KvpFbMR6/taucia.png" alt="">
+                                        <div class="timeline-content-txt text-black ">
+                                            <h6>•2018</h6>
+                                        <img class="img-fluid" src="https://i.postimg.cc/KvpFbMR6/taucia.png" alt="">
                                             <p>[Worked for the year] <br>-Catering at (la Elagante)
                                                 <br />-Internship (Printing SA)<br />-WoolWorths
                                             </p>
@@ -62,14 +65,15 @@
 
                             </div>
                             <div class="timeline-box img-left timeline-content-img">
-                                <div class="timeline-box-wrap">
-                                    <h6>2021-19</h6>
+                                <div class="timeline-box-wrap ">
+                                    
                                     <div class="timeline-content">
                                         <div class="timeline-content-txt">
+                                            <h6 >•2021-2019</h6>
                                             <p>-Studied At College of Cape Town <br>-Primary Health Care <br>-National
                                                 Vocational Certificate</p>
                                         </div>
-                                        <img src="https://i.postimg.cc/fRYHC4n8/college-of-cape-town-logo.jpg" alt="">
+                                        <img class="img-fluid" src="https://i.postimg.cc/fRYHC4n8/college-of-cape-town-logo.jpg" alt="">
                                     </div>
                                 </div>
                             </div>
@@ -94,7 +98,7 @@ export default {
 }
 </script>
 
-<style >
+<style scoped>
 /* timeline */
 .res.text {
   padding-bottom: 20px;
@@ -163,6 +167,7 @@ h3,
 h4,
 h5,
 h6 {
+    
     margin: 0;
     margin-top: 0px;
     line-height: normal;
