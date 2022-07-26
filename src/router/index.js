@@ -33,7 +33,7 @@ const routes = [
     path: '/testamonials',
     name: 'testamonials',
    
-    component: () => import( '../views/TestamonialsView.vue')
+    component: () => import( '../views/TestimonialsView.vue')
   },
   {
     path: '/contact',
