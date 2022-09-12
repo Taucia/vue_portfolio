@@ -1,3 +1,4 @@
+footer
 <template>
   <!-- Footer -->
   <footer class="text-black bg-light">
@@ -41,6 +42,6 @@
   <!-- Footer -->
 </template>
 
-<style>
+<style scoped>
 
 </style>

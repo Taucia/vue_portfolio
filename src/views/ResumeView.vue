@@ -90,12 +90,21 @@
             </div>
         </div>
     </div>
+    <div class="container">
+    <div class="row">
+      <CardsResume />
+    </div>
+  </div>
 </template>
 
 <script>
-export default {
+import CardsResume from "../components/CardsResume.vue";
 
-}
+export default {
+  components: {
+    CardsResume
+},
+};
 </script>
 
 <style scoped>
@@ -436,7 +445,14 @@ h6 {
 .timeline-box.img-right .timeline-content,
 .timeline-box.img-left .timeline-content {
     display: flex;
-    align-items: flex-start;
+    align-items: fle
+    
+    
+    
+    
+    
+    
+    +x-start;
 }
 
 .timeline-box.img-right .timeline-content img {

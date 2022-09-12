@@ -7,8 +7,8 @@
                 
             </div>
             
-            <div class="skill-card">
-                <div class="card">
+            <div class="skill-card row">
+                <div class="card col-md">
                   <i class="fas fa-file-code"></i>
                    <h4>Technical Skills</h4>
                     <h4>HTML</h4>
@@ -21,7 +21,7 @@
                   </div>
                 </div>
                 
-                <div class="card">
+                <div class="card col-md">
                   <i class="fas fa-file-code"></i>
                    <h4>Technical Skills</h4>
                     <h4>BOOTSRTAP</h4>
@@ -34,7 +34,7 @@
                   </div>
                 </div>
                 
-                <div class="card">
+                <div class="card col-md">
                  <i class="fas fa-file-code"></i>
                   <h4>Technical Skills</h4>
                     <h4>MYSQL</h4>
@@ -47,7 +47,7 @@
                   </div>
                 </div>
                 
-                <div class="card">
+                <div class="card col-md">
                     <i class="fas fa-file-code"></i>
                      <h4>Technical Skills</h4>
                     <h4>CSS</h4>
@@ -60,7 +60,7 @@
                   </div>
                 </div>
                 
-                <div class="card">
+                <div class="card col-md">
                   <i class="fas fa-file-code"></i>
                    <h4>Technical Skills</h4>
                     <h4>Nodes.js</h4>
@@ -73,7 +73,7 @@
                   </div>
                 </div>
                 
-                <div class="card">
+                <div class="card col-md">
                     <i class="fas fa-file-code"></i>
                      <h4>Technical Skills</h4>
                     <h4>JavaScript</h4>
@@ -85,7 +85,7 @@
                     </div>
                   </div>
                 </div>
-                <div class="card">
+                <div class="card col-md">
                     <i class="fas fa-file-code"></i>
                      <h4>Technical Skills</h4>
                     <h4>VUE</h4>
@@ -98,7 +98,7 @@
                   </div>
                 </div>
                 
-                <div class="card">
+                <div class="card col-md">
                   <i class="fas fa-file-code"></i>
                   <h4>Technical Skills</h4>
                     <h4>VUEX</h4>
@@ -111,7 +111,7 @@
                   </div>
                 </div>
                 
-                <div class="card">
+                <div class="card col-md">
                     <i class="fas fa-file-code"></i>
                     <h4>Soft Skills</h4>
                     <h4>COMMUNICATION</h4>
@@ -125,7 +125,7 @@
                   
                 </div>
             
-             <div class="card">
+             <div class="card col-md">
                     <i class="fas fa-file-code"></i>
                     <h4>Soft Skills</h4>
                     <h4>SELF-MANAGEMENT</h4>
@@ -138,7 +138,7 @@
                   </div>
                 </div>
             
-             <div class="card">
+             <div class="card col-md">
                     <i class="fas fa-file-code"></i>
                     <h4>Soft Skills</h4>
                     <h4>TIME-MANAGMENT</h4>
@@ -150,7 +150,7 @@
                     </div>
                   </div>
                 </div>
-                 <div class="card">
+                 <div class="card col-md">
                     <i class="fas fa-file-code"></i>
                     <h4>Soft Skills</h4>
                     <h4>AMBITIOUS</h4>
@@ -186,11 +186,12 @@ export default {
 }
 </script>
 
-<style>
+<style >
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    overflow-wrap: none;
 }
 
 :root {
@@ -210,12 +211,12 @@ body {
   overflow-x: hidden;
 }
 
-/* .container {
+ .container {
     padding-left: 10px;
-    padding-right: 10px;
+    padding-right: 80px;
     margin-left: auto;
     margin-right: 2px;
-} */
+} 
 
 
 /* @media (min-width: 768px) {

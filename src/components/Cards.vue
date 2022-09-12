@@ -4,7 +4,7 @@
     v-for="item in AboutArray"
     :key="item.id"
   >
-    <section class="card-content">
+    <div class=" card-content">
       <div class="card-content">
         <div class="card">
           <div class="layer"></div>
@@ -15,27 +15,27 @@
             <br />
             <div class="details">
               <span>{{ item.title }}</span>
-              <div class="col-4">
+              <div class="col-md">
                 <a
                   class="btn btn-primary btn-floating m-1"
                   style="background-color: #333333"
                   :href="item.text"
                   role="button"
-                  >G</a>
+                  ><i class="bi bi-github">Github</i></a>
                 <a
                   class="btn btn-primary btn-floating m-1"
                   style="background-color:  #dcabdf"
                  :href="item.link"
                   role="button"
-                  >N
+                  ><i class="bi bi-code">Netlify</i>
                 </a>
               </div>
             </div>
           </div>
         </div>
       </div>
-    </section>
-  </article>
+    </div>
+</article>
 </template>
 
 <script scoped>
@@ -121,7 +121,13 @@ export default {
 article{
     overflow-x: hidden;
 }
-
+.i{
+  color:white;
+  width:20px;
+}
+.bi{
+  color:white;
+}
 .card-content {
   /* margin: 200px auto 100px; */
    padding-top:20px; 
@@ -138,9 +144,10 @@ article{
   box-sizing: border-box;
   
   text-align: center;
-  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.5);
-  overflow: hidden;
-  border-radius: 30px;
+ 
+  overflow-x: hidden;
+  overflow-y:hidden;
+  border-radius: 10px;
 }
 .card-content .card .layer {
   position: absolute;

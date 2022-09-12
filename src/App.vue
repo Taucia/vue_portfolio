@@ -19,7 +19,7 @@ export default{
     Footer,  }
 }
 </script>
-<style>
+<style >
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -30,6 +30,8 @@ export default{
 }
 body {
   min-width: 100vw;
+  overflow-x: hidden;
+
 }
 *{
   margin: 0;
