@@ -15,10 +15,7 @@ export default{
 }
 </script>
 <style scoped>
-#landing{
-    overflow: hidden;
-    background-image:url('https://i.postimg.cc/yxCScTzJ/nixx-studio-d-LFmw-IOGNYo-unsplash.jpg') ;
-}
+
 
 
 body {
