@@ -21,13 +21,13 @@
                   style="background-color: #333333"
                   :href="item.text"
                   role="button"
-                  ><i class="bi bi-github">Github</i></a>
+                  >Github <i class="fab fa-github"></i></a>
                 <a
                   class="btn btn-primary btn-floating m-1"
                   style="background-color:  #dcabdf"
                  :href="item.link"
                   role="button"
-                  ><i class="bi bi-code">Netlify</i>
+                  >Netlify <i class="fa-regular fa-code"></i>
                 </a>
               </div>
             </div>
