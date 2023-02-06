@@ -393,12 +393,13 @@ body {
             <div class="face face1">
               <div class="content">
                   <i class="fab fa-windows"></i>            
-                <h3>Windows</h3>
+                <h3>HTML</h3>
               </div>
             </div>
             <div class="face face2">
               <div class="content">
-                <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde ab repudiandae, explicabo voluptate et hic cum ratione a. Officia delectus illum perferendis maiores quia molestias vitae fugiat aspernatur alias corporis?</p>
+                <H6>Technical Skill</H6>
+                <P>HTML</P>
                 <div class="progress">
                   <div
                     class="progress-bar w-100 progress-bar-striped progress-bar-animated text-end  bg-secondary"
@@ -414,13 +415,14 @@ body {
            <div class="face face1">
              <div class="content">
           <i class="fab fa-android"></i>              
-           <h3>Android</h3>
+           <h3>BOOTSRTAP</h3>
              </div>
            </div>
            <div class="face face2">
              <div class="content">
-               <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde ab repudiandae, explicabo voluptate et hic cum ratione a. Officia delectus illum perferendis maiores quia molestias vitae fugiat aspernatur alias corporis?</p>
-               <div class="progress">
+              <H6>Technical Skill</H6>
+              <P>BOOTSRTAP</P>             
+                <div class="progress">
                 <div
                   class="progress-bar w-100 progress-bar-striped progress-bar-animated text-end  bg-secondary"
                 >
@@ -436,13 +438,14 @@ body {
            <div class="face face1">
              <div class="content">
                <i class="fab fa-apple"></i>
-                <h3>Apple</h3>
+                <h3>MYSQL</h3>
              </div>
            </div>
            <div class="face face2">
              <div class="content">
-               <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde ab repudiandae, explicabo voluptate et hic cum ratione a. Officia delectus illum perferendis maiores quia molestias vitae fugiat aspernatur alias corporis?</p>
-               <div class="progress">
+              <H6>Technical Skill</H6>
+              <P>MYSQL</P>
+              <div class="progress">
                 <div
                   class="progress-bar w-100 progress-bar-striped progress-bar-animated text-end  bg-secondary"
                 >
@@ -460,12 +463,13 @@ body {
           <div class="face face1">
             <div class="content">
               <i class="fab fa-apple"></i>
-               <h3>Apple</h3>
+               <h3>CSS</h3>
             </div>
           </div>
           <div class="face face2">
             <div class="content">
-              <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde ab repudiandae, explicabo voluptate et hic cum ratione a. Officia delectus illum perferendis maiores quia molestias vitae fugiat aspernatur alias corporis?</p>
+              <H6>Technical Skill</H6>
+              <P>CSS</P>
               <div class="progress">
                 <div
                   class="progress-bar w-100 progress-bar-striped progress-bar-animated text-end  bg-secondary"
@@ -486,7 +490,8 @@ body {
         </div>
         <div class="face face2">
           <div class="content">
-            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde ab repudiandae, explicabo voluptate et hic cum ratione a. Officia delectus illum perferendis maiores quia molestias vitae fugiat aspernatur alias corporis?</p>
+            <H6>Technical Skill</H6>
+            <P>HTML</P>
             <div class="progress">
               <div
                 class="progress-bar w-100 progress-bar-striped progress-bar-animated text-end  bg-secondary"
@@ -506,7 +511,8 @@ body {
         </div>
         <div class="face face2">
           <div class="content">
-            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde ab repudiandae, explicabo voluptate et hic cum ratione a. Officia delectus illum perferendis maiores quia molestias vitae fugiat aspernatur alias corporis?</p>
+            <H6>Technical Skill</H6>
+            <P>HTML</P>
             <div class="progress">
               <div
                 class="progress-bar w-100 progress-bar-striped progress-bar-animated text-end  bg-secondary"
@@ -527,7 +533,8 @@ body {
         </div>
         <div class="face face2">
           <div class="content">
-            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde ab repudiandae, explicabo voluptate et hic cum ratione a. Officia delectus illum perferendis maiores quia molestias vitae fugiat aspernatur alias corporis?</p>
+            <H6>Technical Skill</H6>
+            <P>HTML</P>
             <div class="progress">
               <div
                 class="progress-bar w-100 progress-bar-striped progress-bar-animated text-end  bg-secondary"
@@ -548,7 +555,8 @@ body {
         </div>
         <div class="face face2">
           <div class="content">
-            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde ab repudiandae, explicabo voluptate et hic cum ratione a. Officia delectus illum perferendis maiores quia molestias vitae fugiat aspernatur alias corporis?</p>
+            <H6>Technical Skill</H6>
+            <P>HTML</P>
             <div class="progress">
               <div
                 class="progress-bar w-100 progress-bar-striped progress-bar-animated text-end  bg-secondary"
@@ -569,7 +577,8 @@ body {
         </div>
         <div class="face face2">
           <div class="content">
-            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde ab repudiandae, explicabo voluptate et hic cum ratione a. Officia delectus illum perferendis maiores quia molestias vitae fugiat aspernatur alias corporis?</p>
+            <H6>Technical Skill</H6>
+            <P>HTML</P>
             <div class="progress">
               <div
                 class="progress-bar w-100 progress-bar-striped progress-bar-animated text-end  bg-secondary"
