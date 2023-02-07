@@ -29,7 +29,7 @@ export default{
   
 }
 body {
-  min-width: 100vw;
+
   overflow-x: hidden;
 
 }
