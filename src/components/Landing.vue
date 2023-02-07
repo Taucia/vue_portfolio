@@ -8,7 +8,7 @@
 
 <div class="hero-banner">
   <div class="hero-banner__title" aria-hidden="true">TAUCIA JACKSON</div>
-  <img class="hero-banner__image" src="https://assets.freedommayer.com/codepen/mountains-dark.jpg"/>
+  <img class="hero-banner__image" src="https://i.postimg.cc/2y4PJLTk/pampas-white-azalea-wallpaper-1-wa-pam-di-aza-xxx-004-1-pro-sq-arcit18.jpg"/>
   <h1 class="hero-banner__title hero-banner__stroked-title">TAUCIA JACKSON</h1>
 </div>
 
