@@ -27,7 +27,7 @@
                   style="background-color:  #dcabdf"
                  :href="item.link"
                   role="button"
-                  >Netlify 
+                  >Netlify <i class="fa-sharp fa-solid fa-code"></i>
                 </a>
               </div>
             </div>

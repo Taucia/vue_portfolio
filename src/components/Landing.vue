@@ -1,11 +1,21 @@
 <template>
 <section id="landing">
-  <div class="container-fluid">
-    <p class="text animation">Taucia Jackson❤</p>
-</div>  
+  
+    <!-- <p class="text animation">Taucia Jackson❤</p> -->
+    <!-- <p class="large rise">TAUCIA JACKSON</p> -->
+
 </section>
 
- 
+<div class="hero-banner">
+  <div class="hero-banner__title" aria-hidden="true">TAUCIA JACKSON</div>
+  <img class="hero-banner__image" src="https://assets.freedommayer.com/codepen/mountains-dark.jpg"/>
+  <h1 class="hero-banner__title hero-banner__stroked-title">TAUCIA JACKSON</h1>
+</div>
+
+<div class="content">
+  Aspiring Web-Developer
+</div>
+
 
 </template>
 <script>
@@ -18,7 +28,7 @@ export default{
 
 
 
-body {
+/* body {
   padding: 20px;
   font-family: 'Inconsolata', monospace;
 
@@ -59,6 +69,99 @@ body {
   to {
     border-right-color: transparent;
   }
+} */
+
+
+
+/* body,
+html {
+	height: 100%;
+	display: grid;
+	background-color:white;
+	font-family: "Audiowide", cursive;
+	color: orchid;
 }
 
+p {
+	margin: auto;
+}
+
+.large {
+	font-size: 6rem;
+}
+
+.small {
+	font-size: 3rem;
+}
+
+.rise {
+	text-shadow: -0.01em -0.01em 0.01em black;
+	animation: rise 2s ease-in-out 0.5s forwards;
+}
+
+@keyframes rise {
+	to {
+		text-shadow: 0em 0.01em orchid, 0em 0.02em black, 0em 0.02em 0.03em orchid,
+			-0.01em 0.01em black, -0.02em 0.02em black, -0.03em 0.03em orchid,
+			-0.04em 0.04em black, -0.01em -0.01em 0.03em black, -0.02em -0.02em 0.03em black,
+			-0.03em -0.03em 0.03em black;
+		transform: translateY(-0.025em) translateX(0.04em);
+	}
+}
+
+.outline {
+	background-clip: text;
+	color:orchid;
+	animation: outline 1s ease-in-out 1.5s forwards;
+}
+
+@keyframes outline {
+	from {
+		text-shadow: 0em -7em 10em orchid
+	}
+	to {
+		text-shadow: 0 0.02em black, 0.02em 0 black, -0.02em 0 black, 0 -0.02em orchid;
+	}
+} */
+.hero-banner {
+	 align-items: center;
+	 display: flex;
+	 height: 100vh;
+	 position: relative;
+	 justify-content: center;
+	 z-index: -1;
+}
+ .hero-banner__title {
+	 color: orchid;
+	 font-size: 100px;
+	 font-weight: 700;
+	 padding: 0 20px;
+	 position: absolute;
+	 text-align: center;
+	 text-transform: uppercase;
+}
+ .hero-banner__stroked-title {
+	 color: transparent;
+	 -webkit-text-stroke: 2px #dcabdf;
+	 text-transform: 2px white;
+}
+ .hero-banner__image {
+	 border-radius: 20px;
+	 position: fixed;
+	 transform: rotate(-15deg);
+	 width: 450px;
+}
+ .content {
+	 background-color: #eaeaea;
+	 font-size: 40px;
+	 padding: 120px 80px;
+	 height: 100vh;
+}
+ body {
+	 background-color: #000;
+	 font-family: Arial;
+}
+ * {
+	 box-sizing: border-box;
+}
 </style>

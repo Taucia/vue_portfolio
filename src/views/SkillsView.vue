@@ -12,19 +12,19 @@
             <div class="card">
               <div class="face face1">
                 <div class="content">
-                    <i class="fab fa-windows"></i>            
+                  <i class="fa-brands fa-html5"></i>           
                   <h3>HTML</h3>
                 </div>
               </div>
               <div class="face face2">
                 <div class="content">
                   <H6>Technical Skill</H6>
-                  <P>HTML</P>
+                  <P>HTML <i class="fa-brands fa-html5"></i></P>
                   <div class="progress">
                     <div
                       class="progress-bar w-100 progress-bar-striped progress-bar-animated text-end  bg-secondary"
                     >
-                      95%
+                      100%
                     </div>
                   </div>
                 </div>
@@ -34,19 +34,19 @@
           <div class="card">
              <div class="face face1">
                <div class="content">
-            <i class="fab fa-android"></i>              
+                <i class="fa-brands fa-bootstrap"></i>            
              <h3>BOOTSRTAP</h3>
                </div>
              </div>
              <div class="face face2">
                <div class="content">
                 <H6>Technical Skill</H6>
-                <P>HTML</P>             
+                <P>BOOTSRTAP <i class="fa-brands fa-bootstrap"></i></P>             
                   <div class="progress">
                   <div
                     class="progress-bar w-100 progress-bar-striped progress-bar-animated text-end  bg-secondary"
                   >
-                    95%
+                    99%
                   </div>
                 </div>
                </div>
@@ -57,14 +57,14 @@
           <div class="card">
              <div class="face face1">
                <div class="content">
-                 <i class="fab fa-apple"></i>
+                <i class="fas fa-database"></i>
                   <h3>MYSQL</h3>
                </div>
              </div>
              <div class="face face2">
                <div class="content">
                 <H6>Technical Skill</H6>
-                <P>MYSQL</P>
+                <P>MYSQL <i class="fas fa-database"></i></P>
                 <div class="progress">
                   <div
                     class="progress-bar w-100 progress-bar-striped progress-bar-animated text-end  bg-secondary"
@@ -82,14 +82,14 @@
           <div class="card">
             <div class="face face1">
               <div class="content">
-                <i class="fab fa-apple"></i>
-                 <h3>Apple</h3>
+                <i class="fa-brands fa-css3"></i>
+                 <h3>CSS</h3>
               </div>
             </div>
             <div class="face face2">
               <div class="content">
                 <H6>Technical Skill</H6>
-                <P>HTML</P>
+                <P>CSS <i class="fa-brands fa-css3"></i></P>
                 <div class="progress">
                   <div
                     class="progress-bar w-100 progress-bar-striped progress-bar-animated text-end  bg-secondary"
@@ -104,19 +104,19 @@
          <div class="card">
           <div class="face face1">
             <div class="content">
-                <i class="fab fa-windows"></i>            
-              <h3>Windows</h3>
+              <i class="fa-brands fa-node-js"></i>         
+              <h3>Nodes.js</h3>
             </div>
           </div>
           <div class="face face2">
             <div class="content">
               <H6>Technical Skill</H6>
-              <P>HTML</P>
+              <P>Nodes.js <i class="fa-brands fa-node-js"></i></P>
               <div class="progress">
                 <div
                   class="progress-bar w-100 progress-bar-striped progress-bar-animated text-end  bg-secondary"
                 >
-                  95%
+                  75%
                 </div>
               </div>
             </div>
@@ -125,19 +125,19 @@
         <div class="card">
           <div class="face face1">
             <div class="content">
-                <i class="fab fa-windows"></i>            
-              <h3>Windows</h3>
+              <i class="fa-brands fa-js"></i>          
+              <h3>JavaScript</h3>
             </div>
           </div>
           <div class="face face2">
             <div class="content">
               <H6>Technical Skill</H6>
-              <P>HTML</P>
+              <P>JavaScript  <i class="fa-brands fa-js"></i> </P>
               <div class="progress">
                 <div
                   class="progress-bar w-100 progress-bar-striped progress-bar-animated text-end  bg-secondary"
                 >
-                  95%
+                  80%
                 </div>
               </div>
             </div>
@@ -147,19 +147,19 @@
         <div class="card">
           <div class="face face1">
             <div class="content">
-                <i class="fab fa-windows"></i>            
-              <h3>Windows</h3>
+              <i class="fa-brands fa-vuejs"></i>        
+              <h3>VUE.JS</h3>
             </div>
           </div>
           <div class="face face2">
             <div class="content">
               <H6>Technical Skill</H6>
-              <P>HTML</P>
+              <P>VUE <i class="fa-brands fa-vuejs"></i> </P>
               <div class="progress">
                 <div
                   class="progress-bar w-100 progress-bar-striped progress-bar-animated text-end  bg-secondary"
                 >
-                  95%
+                  80%
                 </div>
               </div>
             </div>
@@ -169,19 +169,19 @@
         <div class="card">
           <div class="face face1">
             <div class="content">
-                <i class="fab fa-windows"></i>            
-              <h3>Windows</h3>
+              <i class="fa-brands fa-vuejs"></i>         
+              <h3>VUEX</h3>
             </div>
           </div>
           <div class="face face2">
             <div class="content">
               <H6>Technical Skill</H6>
-              <P>HTML</P>
+              <P>VUEX <i class="fa-brands fa-vuejs"></i> </P>
               <div class="progress">
                 <div
                   class="progress-bar w-100 progress-bar-striped progress-bar-animated text-end  bg-secondary"
                 >
-                  95%
+                  80%
                 </div>
               </div>
             </div>
@@ -191,26 +191,87 @@
         <div class="card">
           <div class="face face1">
             <div class="content">
-                <i class="fab fa-github"></i>            
-              <h3>Windows</h3>
+              <i class="fa-brands fa-wordpress"></i>          
+              <h3>WordPress</h3>
             </div>
           </div>
           <div class="face face2">
             <div class="content">
               <H6>Technical Skill</H6>
-              <P>HTML</P>
+              <P>WordPress <i class="fa-brands fa-wordpress"></i> </P>
               <div class="progress">
-                <div
-                  class="progress-bar w-100 progress-bar-striped progress-bar-animated text-end  bg-secondary"
-                >
-                  95%
+                <div class="progress-bar w-100 progress-bar-striped progress-bar-animated text-end  bg-secondary">
+                  90%
                 </div>
               </div>
             </div>
           </div>
         </div>   
-        </div>
         
+        
+        <div class="card">
+          <div class="face face1">
+            <div class="content">
+              <i class="fa-brands fa-google"></i>           
+              <h3>Google Analytics</h3>
+            </div>
+          </div>
+          <div class="face face2">
+            <div class="content">
+              <H6>Technical Skill</H6>
+              <P>Google Analytics <i class="fa-brands fa-google"></i></P>
+              <div class="progress">
+                <div
+                  class="progress-bar w-100 progress-bar-striped progress-bar-animated text-end  bg-secondary">
+                  75%
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>   
+        
+        <div class="card">
+          <div class="face face1">
+            <div class="content">
+              <i class="fa-brands fa-php"></i>         
+              <h3>PHP</h3>
+            </div>
+          </div>
+          <div class="face face2">
+            <div class="content">
+              <H6>Technical Skill</H6>
+              <P>PHP <i class="fa-brands fa-php"></i></P>
+              <div class="progress">
+                <div
+                  class="progress-bar w-100 progress-bar-striped progress-bar-animated text-end  bg-secondary" >
+                  55%
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>   
+    
+        <div class="card">
+          <div class="face face1">
+            <div class="content">
+              <i class="fa-solid fa-gear"></i>
+              <h3>SEO</h3>
+            </div>
+          </div>
+          <div class="face face2">
+            <div class="content">
+              <H6>Technical Skill</H6>
+              <P>SEO <i class="fa-solid fa-gear"></i></P>
+              <div class="progress">
+                <div
+                  class="progress-bar w-100 progress-bar-stripe progress-bar-animated text-end  bg-secondary "> 
+                  90%
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>   
+      </div>
       </body>
   </section>
  
@@ -227,7 +288,7 @@ body{
   display:flex;
   margin:0;
   padding:0;
-  min-height: 100vh;
+  min-height: 200vh;
 
   justify-content: center;
   align-items: center;
